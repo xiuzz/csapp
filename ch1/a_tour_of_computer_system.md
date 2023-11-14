@@ -66,6 +66,45 @@ There are some important reason why programmers need to understand how compilati
 
 ### Avoiding security holes
 
-### Processors Read and Interpret Instructions Stored in Memory
+## Processors Read and Interpret Instructions Stored in Memory
 
 disk -> vfs -> fs -> shell -> user
+
+
+
+### Hardware Organization of a System
+
+Hardware organization of a typical system
+![Alt text](image-3.png)
+
+This particular picture is modeled after he family of recent Intel systems, but all sysyems have a similar look and feel.
+
+#### Buses
+
+Runing throughout the system is a collection of electrical conduits called buses that carry bytes of information back and forth between the components.Buses are typically designed to transfer fixed-size chunks
+of bytes known as words;
+
+#### I/O Devices
+
+Input/output device are the system's coection to the external world. 
+
+Each I/O device is connected to the I/O bus by either a controller or an adapter.
+
+controller: the chip sets in the device itself or on the motherboard.
+
+adapter: it's a card that plugs into slot on the motherboard.
+
+Chapter 6 and chapter 10 will to say more about I/O devices information.
+
+
+#### Main Memory
+
+The main memory is a temporary storage device that holds bath a program and trhe data it manipulates while the processor is execuring the program.
+
+Physically, main memory conists of  a collection of dynamic random access memory (DRAM,动态随机访问内存) chips.
+
+Logically, memory is organized as a linear array of bytes, each with its own unique address(array index) starting at zero. 
+
+### Processor 
+
+The central processing unit, or simply processor, is the engine that interpets(excutes) 
